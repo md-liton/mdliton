@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #25252b;
+    border-radius: 15px;
+}
+
+.box{
+    position: relative;
+    border-radius: 15px;
+    background: repeating-conic-gradient(from var(--a),#ff2770 0%,#ff2770 5%,transparent 5% ,transparent 40% ,#ff2770 50%);
+    animation: animate 3s linear infinite;
+    z-index: 1;
+}
+@property --a
+{
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+@keyframes animate
+{
+    0%
+    {
+        --a: 0deg
+    }
+    100%
+    {
+        --a: 360deg
+    }
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: repeating-conic-gradient(from var(--a),#45f3ff 0%,#45f3ff 5%,transparent 5% ,transparent 40% ,#45f3ff 50%);
+    animation: animate 5s linear infinite;
+    border-radius: 20px;
+    z-index: -1;
+}
+.box::after{
+    content: '';
+    position: absolute;
+    inset: 6px;
+    background: #2d2d39;
+    border-radius: 15px;
+    border:  8px solid #25252b;
+    z-index: -1;
+}
