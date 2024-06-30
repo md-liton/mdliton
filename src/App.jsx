@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
-import Skills from './Components/Skills/Skills';
 import About from './Components/About/About';
 import { Service } from './Components/Service/Service';
 
@@ -21,11 +20,6 @@ const router = createBrowserRouter(
         <Route
         path="/navbar"
         element={<Navbar/>}
-      >
-      </Route>
-        <Route
-        path="/skills"
-        element={<Skills/>}
       >
       </Route>
         <Route
