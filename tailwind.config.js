@@ -12,7 +12,7 @@ export default {
     fontFamily: {
       'play': ['Playwrite NG Modern', 'cursive'],
       'vollo': ['Vollkorn', 'serif']
-    }
+    },
     },
   },
   plugins: [],

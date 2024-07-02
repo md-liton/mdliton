@@ -1,7 +1,6 @@
 import React from 'react'
 import { RiComputerLine } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa6";
-import { PiCodeSimpleFill } from "react-icons/pi";
 import { MdOutlineMobileFriendly } from "react-icons/md";
 import { FaCode } from "react-icons/fa";
 
@@ -15,7 +14,7 @@ export const Service = () => {
   return (
     <>
       <div className='py-[20px]'>
-        <h1 className='text-white font-vollo font-bold text-[35px]  text-center'>Service</h1>
+        <h1 className='text-white font-vollo font-bold text-[35px]  text-center'>SERVICE</h1>
         <div className='flex gap-[50px] mt-[15px] '>
           <div className='w-2/4 '>
             <div className='border border-2 rounded-lg border-[#ff2770]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>

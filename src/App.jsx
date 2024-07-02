@@ -9,6 +9,8 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import About from './Components/About/About';
 import { Service } from './Components/Service/Service';
+import Project from './Components/Project/Project';
+import Contact from './Components/Contact/Contact';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -30,6 +32,16 @@ const router = createBrowserRouter(
         <Route
         path="/service"
         element={<Service/>}
+      >
+      </Route>
+        <Route
+        path="/project"
+        element={<Project/>}
+      >
+      </Route>
+        <Route
+        path="/contact"
+        element={<Contact/>}
       >
       </Route>
       </Route>
