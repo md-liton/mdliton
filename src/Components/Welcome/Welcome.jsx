@@ -21,17 +21,17 @@ const Welcome = () => {
               <h1 className='text-white font-vollo font-bold text-[45px] '>Md Liton</h1>
 
               <div className='h-[50px]'>
-                <p className='text-[#45f3ff] font-vollo font-semibold text-[30px] '><span>{text}</span> <span className='text-[#ff2770]'>Developer</span> </p>
+                <p className='text-[#37B7C3] font-vollo font-semibold text-[30px] '><span>{text}</span> <span className='text-[#00abf0]'>Developer</span> </p>
               </div>
 
 
               <p className=' text-white font-play font-thin text-[13px]'>Working with client and community, we deliver masterplans that create vibrant new places and spaces, attract people, and encourage investment through..</p>
               <div className="btn mt-[20px] flex items-center gap-[20px]">
 
-                <div className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3] bg-gradient-to-r from-[#ff2770] to-[#45f3ff] border-2 rounded-lg py-[10px] px-[35px] hover:text-[#45f3ff] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+                <div className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3]  border-2 rounded-lg py-[10px] px-[35px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
                 <span><GrProjects /></span> <span>View project</span>
                 </div>
-                <div className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3] bg-gradient-to-r from-[#ff2770] to-[#45f3ff] border-2 rounded-lg py-[10px] px-[35px] hover:text-[#45f3ff] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+                <div className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3]  border-2 rounded-lg py-[10px] px-[35px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
                 <span><FaFileContract /></span> <span>View Resume</span>
                 </div>
               </div>

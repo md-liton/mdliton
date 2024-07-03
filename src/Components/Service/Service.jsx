@@ -13,14 +13,14 @@ import { FaCode } from "react-icons/fa";
 export const Service = () => {
   return (
     <>
-      <div className='py-[20px]'>
+      <div className='py-[20px]'  data-aos="flip-left" data-aos-duration="2000">
         <h1 className='text-white font-vollo font-bold text-[35px]  text-center'>SERVICE</h1>
         <div className='flex gap-[50px] mt-[15px] '>
           <div className='w-2/4 '>
-            <div className='border border-2 rounded-lg border-[#ff2770]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
+            <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
               <FaCode className='text-white text-[80px]' />
               <h1 className='text-white font-vollo font-bold text-[25px] mt-[10px]'>Front-End Design</h1>
-              <div className='flex gap-[100px] text-[#45f3ff] mt-[15px] font-bold '>
+              <div className='flex gap-[100px] text-[#37B7C3] mt-[15px] font-bold '>
                 <div >
 
                   <p>HTML</p>
@@ -40,10 +40,10 @@ export const Service = () => {
             </div>
           </div>
           <div className='w-2/4  '>
-          <div className='border border-2 rounded-lg border-[#ff2770]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
+          <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
               <RiComputerLine className='text-white text-[80px]' />
               <h1 className='text-white font-vollo font-bold text-[25px] mt-[10px]'>Front-End Development</h1>
-              <div className='flex gap-[100px] text-[#45f3ff] mt-[15px] font-bold'>
+              <div className='flex gap-[100px] text-[#37B7C3] mt-[15px] font-bold'>
                 <div>
 
                   <p>React Js</p>
@@ -63,10 +63,10 @@ export const Service = () => {
         </div>
         <div className='flex gap-[50px] mt-[40px] '>
           <div className='w-2/4 '>
-            <div className='border border-2 rounded-lg border-[#ff2770]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
+            <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
               <FaNodeJs  className='text-white text-[80px]'/>
               <h1 className='text-white font-vollo font-bold text-[25px] mt-[10px]'>Back-End Developmnet</h1>
-              <div className='flex gap-[100px] text-[#45f3ff] mt-[15px] font-bold '>
+              <div className='flex gap-[100px] text-[#37B7C3] mt-[15px] font-bold '>
                 <div >
 
                   <p>Node Js</p>
@@ -80,10 +80,10 @@ export const Service = () => {
             </div>
           </div>
           <div className='w-2/4  '>
-          <div className='border border-2 rounded-lg border-[#ff2770]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
+          <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
               <MdOutlineMobileFriendly className='text-white text-[80px]' />
               <h1 className='text-white font-vollo font-bold text-[25px] mt-[10px]'>App Development</h1>
-              <div className='flex gap-[100px] text-[#45f3ff] mt-[15px] font-bold'>
+              <div className='flex gap-[100px] text-[#37B7C3] mt-[15px] font-bold'>
                 <div>
 
                   <p>React Native</p>
