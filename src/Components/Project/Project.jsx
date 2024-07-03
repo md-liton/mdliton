@@ -9,7 +9,8 @@ import { Link } from 'react-router-dom'
 const Project = () => {
   return (
     <>
-      <div className='py-[20px]'  data-aos="flip-left" data-aos-duration="2000">
+      <div className='py-[20px]'  data-aos="zoom-in-left"
+     data-aos-duration="3000">
         <h1 className='text-white font-vollo font-bold text-[35px]  text-center'>PROJECT</h1>
         <div className='flex gap-[50px] mt-[15px]  '>
           <div className='w-1/2'>

@@ -57,12 +57,7 @@ function App() {
   return (
     <>
       <div className="relative h-screen w-full bg-[#081b29] " >
-        <div className="h-full w-full">
         <RouterProvider router={router} />
-        </div>
-      
-        <div className="absolute inset-0 bg-neutral-950 bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))] z-[-1] ">
-        </div>
       </div>
     </>
   )

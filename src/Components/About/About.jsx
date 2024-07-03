@@ -7,7 +7,7 @@ import { FaReact,FaNodeJs } from "react-icons/fa";
 const About = () => {
   return (
     <>
-          <div className='p-[10px] ' data-aos="flip-left" data-aos-duration="2000">
+          <div className='p-[10px] ' data-aos="flip-up" data-aos-duration="2000">
               <div className='flex items-center border border-2 rounded-lg border-[#37B7C3] p-[10px] gap-[50px]'>
                   <div className='w-3/4  '>
                       <p className='text-white font-vollo font-bold text-[35px] '>Hello</p>

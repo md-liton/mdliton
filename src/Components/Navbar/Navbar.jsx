@@ -15,6 +15,7 @@ const Navbar = () => {
 
   const handleHome=()=>{
     navigate('/')
+    location.reload()
   }
 
   const handleAbout =()=>{

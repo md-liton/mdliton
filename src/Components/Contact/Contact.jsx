@@ -5,7 +5,9 @@ import { FaTelegramPlane } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
-          <div className='px-[20px] py-[120px] '  data-aos="flip-left" data-aos-duration="2000">
+          <div className='px-[20px] py-[120px] '  data-aos="fade-left"
+        data-aos-offset="500"
+     data-aos-duration="2000">
               <div className='flex gap-[50px] items-center '>
                   <div className='w-1/2   p-[40px]  flex justify-center items-center'>
                       <div>

@@ -13,7 +13,9 @@ import { FaCode } from "react-icons/fa";
 export const Service = () => {
   return (
     <>
-      <div className='py-[20px]'  data-aos="flip-left" data-aos-duration="2000">
+      <div className='py-[20px]'  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
         <h1 className='text-white font-vollo font-bold text-[35px]  text-center'>SERVICE</h1>
         <div className='flex gap-[50px] mt-[15px] '>
           <div className='w-2/4 '>

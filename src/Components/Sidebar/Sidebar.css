@@ -11,7 +11,7 @@
     position: relative;
     border-radius: 15px;
     background: repeating-conic-gradient(from var(--a),#37B7C3 0%,#37B7C3 5%,transparent 5% ,transparent 40% ,#37B7C3 50%);
-    animation: animate 3s linear infinite;
+    animation: animate 12s linear infinite;
     z-index: 1;
 }
 @property --a
@@ -38,7 +38,7 @@
     height: 100%;
     width: 100%;
     background: repeating-conic-gradient(from var(--a),#00abf0 0%,#00abf0 5%,transparent 5% ,transparent 40% ,#00abf0 50%);
-    animation: animate 5s linear infinite;
+    animation: animate 6s linear infinite;
     border-radius: 20px;
     z-index: -1;
 }

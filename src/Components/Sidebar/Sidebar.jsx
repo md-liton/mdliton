@@ -3,6 +3,7 @@ import './Sidebar.css'
 import Navbar from '../Navbar/Navbar'
 import { FaCloudDownloadAlt,FaLinkedin,FaGithub,FaFacebook } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { Link } from 'react-router-dom';
 
 
 
@@ -27,18 +28,12 @@ const Sidebar = () => {
 
 
             <div className='flex justify-between mt-[10px]  p-[20px] '>
-              <div className='w-[40px] h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'>
-              <FaLinkedin />
-              </div>
-              <div className='w-[40px] h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'>
-              <FaGithub />
-              </div>
-              <div className='w-[40px] h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'>
-              <FaFacebook />
-              </div>
-              <div className='w-[40px] h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'>
-              <SiGmail />
-              </div>
+              <Link  to='https://www.linkedin.com/in/md-liton-40b119218/' target='_blank' className='w-[40px] h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'><FaLinkedin />
+              </Link>
+              <Link to='https://github.com/md-liton' target='_blank' className='w-[40px] h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'><FaGithub />
+              </Link>
+              <Link to='/contact' className='w-[40px] h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'><SiGmail />
+              </Link>
             </div>
             <div className='flex justify-center items-center pt-[20px]'>
             <div className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3] border-2 rounded-lg py-[8px] px-[14px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
