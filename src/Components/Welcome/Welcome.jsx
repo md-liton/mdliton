@@ -13,7 +13,7 @@ const Welcome = () => {
   return (
     <>
       <div className='p-[10px]'>
-        <div className=' border border-2 rounded-lg border-[#ff2770] p-[10px]'>
+        <div className=' border border-2 rounded-lg border-[#37B7C3] p-[10px]'>
           <div className='flex items-center'>
 
 
@@ -28,10 +28,10 @@ const Welcome = () => {
               <p className=' text-white font-play font-thin text-[13px]'>Working with client and community, we deliver masterplans that create vibrant new places and spaces, attract people, and encourage investment through..</p>
               <div className="btn mt-[20px] flex items-center gap-[20px]">
 
-                <div className='text-center text-white font-vollo font-bold text-[13px] border border-[#ff2770] bg-gradient-to-r from-[#ff2770] to-[#45f3ff] border-2 rounded-lg py-[10px] px-[35px] hover:text-[#45f3ff] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+                <div className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3] bg-gradient-to-r from-[#ff2770] to-[#45f3ff] border-2 rounded-lg py-[10px] px-[35px] hover:text-[#45f3ff] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
                 <span><GrProjects /></span> <span>View project</span>
                 </div>
-                <div className='text-center text-white font-vollo font-bold text-[13px] border border-[#ff2770] bg-gradient-to-r from-[#ff2770] to-[#45f3ff] border-2 rounded-lg py-[10px] px-[35px] hover:text-[#45f3ff] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+                <div className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3] bg-gradient-to-r from-[#ff2770] to-[#45f3ff] border-2 rounded-lg py-[10px] px-[35px] hover:text-[#45f3ff] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
                 <span><FaFileContract /></span> <span>View Resume</span>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Welcome = () => {
           </div>
 
         </div>
-        <div className=' border border-2 rounded-lg border-[#ff2770] p-[20px] mt-[15px]'>
+        <div className=' border border-2 rounded-lg border-[#37B7C3] p-[20px] mt-[15px]'>
         <h1 className='text-white font-vollo font-bold text-[25px] '>What I do</h1>
         <p className=' text-white font-play font-thin text-[13px] '>I have more than 2 years experience building dynamic website for clients all over the world.Below is a quick overview of my main technical skill sets and technologies I use.
         Want to find out more about my experience? Check out my online resume and project.</p>

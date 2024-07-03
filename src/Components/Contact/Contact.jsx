@@ -15,7 +15,7 @@ const Contact = () => {
                       <p className='text-white  font-semibold text-[25px] mt-[25px] '>+8801953975506</p>
                       </div>
                   </div>
-                  <div className='w-1/2 border border-2 rounded-lg border-[#ff2770]  cursor-pointer    p-[40px]'>
+                  <div className='w-1/2 border border-2 rounded-lg border-[#ff2770] p-[40px]'>
                   <div className='flex items-center gap-[50px]'>
                   <div>
                     <p className='text-[15px] font-semibold mb-[5px]  text-[#45f3ff]'>Name</p>

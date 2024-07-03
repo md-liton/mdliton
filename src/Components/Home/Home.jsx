@@ -6,7 +6,7 @@ import Welcome from '../Welcome/Welcome'
 const Home = () => {
   const location =useLocation()
   return (
-    <div className='flex max-w-container mx-auto gap-[20px]'>
+    <div className='flex max-w-container mx-auto gap-[20px] items-center'>
         <div className='w-[20%] rounded-xl '>
            <Sidebar/>
         </div>
