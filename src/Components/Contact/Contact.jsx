@@ -1,8 +1,33 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { FaTelegramPlane } from "react-icons/fa";
 
 
 const Contact = () => {
+
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
+        publicKey: 'YOUR_PUBLIC_KEY',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
+
+
+
+
   return (
     <>
           <div className='px-[20px] py-[120px] '  data-aos="fade-left"
@@ -18,23 +43,26 @@ const Contact = () => {
                       </div>
                   </div>
                   <div className='w-1/2 border border-2 rounded-lg border-[#37B7C3] p-[40px]'>
+
+
+                  <form ref={form} onSubmit={sendEmail}>
                   <div className='flex items-center gap-[50px]'>
                   <div>
-                    <p className='text-[15px] font-semibold mb-[5px]  text-[#37B7C3]'>Name</p>
+                    <p className='text-[15px] font-semibold mb-[5px]  text-[#37B7C3] pl-[10px]'>Name</p>
                   <input  className='border border-2 rounded-lg border-[#37B7C3] bg-transparent p-[10px] text-[#999999]' placeholder='Name' type="text" />
                   </div>
                   <div>
-                    <p className='text-[15px] font-semibold mb-[5px]  text-[#37B7C3]'>Email</p>
+                    <p className='text-[15px] font-semibold mb-[5px]  text-[#37B7C3] pl-[10px]'>Email</p>
                   <input  className='border border-2 rounded-lg border-[#37B7C3] bg-transparent p-[10px] text-[#999999]' placeholder='Email' type="email" />
                   </div>
                   </div>
                   <div className='flex items-center gap-[50px] mt-[25px]'>
                   <div>
-                    <p className='text-[15px] font-semibold mb-[5px]  text-[#37B7C3]'>Number(optional)</p>
+                    <p className='text-[15px] font-semibold mb-[5px]  text-[#37B7C3] pl-[10px]'>Number(optional)</p>
                   <input  className='border border-2 rounded-lg border-[#37B7C3] bg-transparent p-[10px] text-[#999999]' placeholder=' Number(optional)' type="text" />
                   </div>
                   <div>
-                    <p className='text-[15px] font-semibold mb-[5px]  text-[#37B7C3]'>Subject(optional)</p>
+                    <p className='text-[15px] font-semibold mb-[5px]  text-[#37B7C3] pl-[10px]'>Subject(optional)</p>
                     <input  className='border border-2 rounded-lg border-[#37B7C3] bg-transparent p-[10px] text-[#999999]' placeholder='Subject(optional)' type="text" />
                     </div>
                   </div>
@@ -42,7 +70,8 @@ const Contact = () => {
                     <textarea className='h-[300px] w-full bg-transparent border border-2 rounded-lg border-[#37B7C3] text-[#999999] p-[10px]' placeholder='Massage'></textarea>
                   </div>
 
-                  <button className='text-center text-white font-semibold text-[18px] border border-[#37B7C3]  border-2 rounded-lg py-[8px] px-[25px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer mt-[15px]'>Send <FaTelegramPlane /></button>
+                  <button className='text-center text-white font-semibold text-[18px] border border-[#37B7C3]  border-2 rounded-lg py-[8px] px-[25px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer mt-[15px]' type="submit" value="Send">Send <FaTelegramPlane /></button>
+                  </form>
                   
                   
                   </div>
