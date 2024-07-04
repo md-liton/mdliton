@@ -61,7 +61,7 @@ const Contact = () => {
             console.log('SUCCESS!');
             toast.success('Successfully Done')
             setTimeout(()=>{
-              navigate('https://mdliton.vercel.app/')
+              navigate('/')
             },2000)
           },
           (error) => {
