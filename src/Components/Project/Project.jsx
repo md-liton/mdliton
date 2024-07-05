@@ -9,73 +9,73 @@ import { Link } from 'react-router-dom'
 const Project = () => {
   return (
     <>
-      <div className='py-[20px]'  data-aos="zoom-in-left"
+      <div className='md:py-[20px]'  data-aos="zoom-in-left"
      data-aos-duration="3000">
-        <h1 className='text-white font-vollo font-bold text-[35px]  text-center'>PROJECT</h1>
-        <div className='flex gap-[50px] mt-[15px]  '>
-          <div className='w-1/2'>
+        <h1 className='text-white font-vollo font-bold md:text-[35px] text-[25px]  text-center'>PROJECT</h1>
+        <div className='md:flex md:gap-[50px] md:mt-[15px]  '>
+          <div className='md:w-1/2'>
             <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
-              <div className='h-[210px] w-full'>
+              <div className='md:h-[210px] h-[150px] w-full'>
                 <img className="rounded-lg h-full w-full" src={img1} alt="" />
               </div>
               <div>
                 <h1 className=' text-white font-vollo font-bold text-[18px] my-[10px]'>Chatting Application</h1>
                 <div className='flex gap-[30px]'>
-                  <Link to='https://github.com/md-liton/Chatting-app-react' target='_blank'  className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3]   border-2 rounded-lg py-[8px] px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>View Code</Link>
-                  <Link  to='https://chatting-app-react.vercel.app' target='_blank' className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3]   border-2 rounded-lg py-[8px] px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>Live Project</Link>
+                  <Link to='https://github.com/md-liton/Chatting-app-react' target='_blank'  className='text-center text-white font-vollo font-bold md:text-[13px] text-[10px] border border-[#37B7C3]   border-2 rounded-lg md:py-[8px] py-[4px] md:px-[14px] px-[8px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>View Code</Link>
+                  <Link  to='https://chatting-app-react.vercel.app' target='_blank' className='text-center text-white font-vollo font-bold md:text-[13px] text-[10px] border border-[#37B7C3]   border-2 rounded-lg md:py-[8px] py-[4px] md:px-[14px] px-[8px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>Live Project</Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className='w-1/2'>
+          <div className='md:w-1/2 mt-[15px] md:mt-[0px]'>
             <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
-              <div className='h-[210px] w-full'>
+              <div className='md:h-[210px] h-[150px] w-full'>
                 <img className="rounded-lg h-full w-full" src={img2} alt="" />
               </div>
               <div>
                 <h1 className=' text-white font-vollo font-bold text-[18px] my-[10px]'>Doob</h1>
                 <div className='flex gap-[30px]'>
-                <Link to='https://github.com/md-liton/doob' target='_blank'  className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3]   border-2 rounded-lg py-[8px] px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>View Code</Link>
-                <Link to='https://doob-liart.vercel.app' target='_blank' className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3]   border-2 rounded-lg py-[8px] px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>Live Project</Link>
+                <Link to='https://github.com/md-liton/doob' target='_blank'  className='text-center text-white font-vollo font-bold md:text-[13px] text-[10px] border border-[#37B7C3]   border-2 rounded-lg md:py-[8px] py-[4px] md:px-[14px] px-[8px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>View Code</Link>
+                <Link to='https://doob-liart.vercel.app' target='_blank' className='text-center text-white font-vollo font-bold md:text-[13px] text-[10px] border border-[#37B7C3]   border-2 rounded-lg md:py-[8px] py-[4px] md:px-[14px] px-[8px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer'>Live Project</Link>
                 </div>
               </div>
             </div>
           </div>
 
         </div>
-        <div className='flex gap-[50px] mt-[15px]  '>
-          <div className='w-1/2'>
+        <div className='md:flex gap-[50px] mt-[15px]  '>
+          <div className='md:w-1/2'>
             <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
-              <div className='h-[210px] w-full'>
+              <div className='md:h-[210px] h-[150px] w-full'>
                 <img className="rounded-lg h-full w-full" src={img3} alt="" />
               </div>
               <div>
                 <h1 className=' text-white font-vollo font-bold text-[18px] my-[10px]'>Finsweet</h1>
                 <div className='flex gap-[30px]'>
-                <Link to='https://github.com/md-liton/Finsweet' target='_blank'  className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3]   border-2 rounded-lg py-[8px] px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>View Code</Link>
-                <Link to='https://finsweet-five-tan.vercel.app' target='_blank'  className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3]   border-2 rounded-lg py-[8px] px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>Live Project</Link>
+                <Link to='https://github.com/md-liton/Finsweet' target='_blank'  className='text-center text-white font-vollo font-bold md:text-[13px] text-[10px] border border-[#37B7C3]   border-2 rounded-lg md:py-[8px] py-[4px] md:px-[14px] px-[8px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>View Code</Link>
+                <Link to='https://finsweet-five-tan.vercel.app' target='_blank'  className='text-center text-white font-vollo font-bold md:text-[13px] text-[10px] border border-[#37B7C3]   border-2 rounded-lg md:py-[8px] py-[4px] md:px-[14px] px-[8px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer'>Live Project</Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className='w-1/2'>
+          <div className='md:w-1/2 mt-[15px] md:mt-[0px]'>
             <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
-              <div className='h-[210px] w-full'>
+              <div className='md:h-[210px] h-[150px] w-full'>
                 <img className="rounded-lg h-full w-full" src={img4} alt="" />
               </div>
               <div>
                 <h1 className=' text-white font-vollo font-bold text-[18px] my-[10px]'>Innovate</h1>
                 <div className='flex gap-[30px]'>
-                <Link to='https://github.com/md-liton/Inovate' target='_blank' className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3]   border-2 rounded-lg py-[8px] px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>View Code</Link>
-                <Link to='https://inovate.vercel.app' target='_blank'  className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3]   border-2 rounded-lg py-[8px] px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>Live Project</Link>
+                <Link to='https://github.com/md-liton/Inovate' target='_blank' className='text-center text-white font-vollo font-bold md:text-[13px] text-[10px] border border-[#37B7C3]   border-2 rounded-lg md:py-[8px] py-[4px] md:px-[14px] px-[8px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>View Code</Link>
+                <Link to='https://inovate.vercel.app' target='_blank'  className='text-center text-white font-vollo font-bold md:text-[13px] text-[10px] border border-[#37B7C3]   border-2 rounded-lg md:py-[8px] py-[4px] md:px-[14px] px-[8px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer'>Live Project</Link>
                 </div>
               </div>
             </div>
           </div>
 
         </div>
-                  <div className='flex mt-[20px]'>
-                  <Link to='https://github.com/md-liton?tab=repositories' target='_blank' className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3]   border-2 rounded-lg py-[8px] px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>View More Project</Link>
+                  <div className='flex justify-center md:justify-start mt-[20px]'>
+                  <Link to='https://github.com/md-liton?tab=repositories' target='_blank' className='text-center text-white font-vollo font-bold md:text-[13px] text-[12px] border border-[#37B7C3]   border-2 rounded-lg py-[8px] px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>View More Project</Link>
                   </div>
         
       </div>

@@ -56,7 +56,7 @@ function App() {
 
   return (
     <>
-      <div className="relative h-screen w-full bg-[#081b29] " >
+      <div className=" bg-[#081b29] " >
         <RouterProvider router={router} />
       </div>
     </>

@@ -6,13 +6,13 @@ import Welcome from '../Welcome/Welcome'
 const Home = () => {
   const location =useLocation()
   return (
-    <div className='flex max-w-container mx-auto gap-[20px] items-center '>
-      <div className='w-[20%] rounded-xl' data-aos="fade-right"
+    <div className='md:flex md:max-w-container md:mx-auto md:gap-[20px] md:items-center '>
+      <div className='md:w-[20%] md:rounded-xl' data-aos="fade-right"
         data-aos-offset="500"
      data-aos-duration="2000">
         <Sidebar />
       </div>
-      <div className='w-[80%]'  data-aos="fade-left"
+      <div className='md:w-[80%]'  data-aos="fade-left"
         data-aos-offset="500"
      data-aos-duration="2000">
         {

@@ -16,13 +16,13 @@ export const Service = () => {
       <div className='py-[20px]'  data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
-        <h1 className='text-white font-vollo font-bold text-[35px]  text-center'>SERVICE</h1>
-        <div className='flex gap-[50px] mt-[15px] '>
-          <div className='w-2/4 '>
+        <h1 className='text-white font-vollo font-bold md:text-[35px] text-[25px]  text-center'>SERVICE</h1>
+        <div className='md:flex gap-[50px] mt-[15px] '>
+          <div className='md:w-2/4 '>
             <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
-              <FaCode className='text-white text-[80px]' />
-              <h1 className='text-white font-vollo font-bold text-[25px] mt-[10px]'>Front-End Design</h1>
-              <div className='flex gap-[100px] text-[#37B7C3] mt-[15px] font-bold '>
+              <FaCode className='text-white md:text-[80px] text-[40px]' />
+              <h1 className='text-white font-vollo font-bold md:text-[25px] text-[15px] mt-[10px]'>Front-End Design</h1>
+              <div className='flex gap-[100px] text-[#37B7C3] mt-[15px] font-bold text-[13px] md:text-[16px] '>
                 <div >
 
                   <p>HTML</p>
@@ -41,11 +41,11 @@ export const Service = () => {
               </div>
             </div>
           </div>
-          <div className='w-2/4  '>
+          <div className='md:w-2/4 mt-[15px] md:mt-[0px] '>
           <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
-              <RiComputerLine className='text-white text-[80px]' />
-              <h1 className='text-white font-vollo font-bold text-[25px] mt-[10px]'>Front-End Development</h1>
-              <div className='flex gap-[100px] text-[#37B7C3] mt-[15px] font-bold'>
+              <RiComputerLine className='text-white md:text-[80px] text-[40px]' />
+              <h1 className='text-white font-vollo font-bold md:text-[25px] text-[15px] mt-[10px]'>Front-End Development</h1>
+              <div className='flex gap-[100px] text-[#37B7C3] mt-[15px] font-bold text-[13px] md:text-[16px]'>
                 <div>
 
                   <p>React Js</p>
@@ -63,12 +63,12 @@ export const Service = () => {
             </div>
           </div>
         </div>
-        <div className='flex gap-[50px] mt-[40px] '>
-          <div className='w-2/4 '>
+        <div className='md:flex gap-[50px] mt-[40px] '>
+          <div className='md:w-2/4 '>
             <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
-              <FaNodeJs  className='text-white text-[80px]'/>
-              <h1 className='text-white font-vollo font-bold text-[25px] mt-[10px]'>Back-End Developmnet</h1>
-              <div className='flex gap-[100px] text-[#37B7C3] mt-[15px] font-bold '>
+              <FaNodeJs  className='text-white md:text-[80px] text-[40px]'/>
+              <h1 className='text-white font-vollo font-bold md:text-[25px] text-[15px] mt-[10px]'>Back-End Developmnet</h1>
+              <div className='flex gap-[100px] text-[#37B7C3] mt-[15px] font-bold text-[13px] md:text-[16px]'>
                 <div >
 
                   <p>Node Js</p>
@@ -81,11 +81,11 @@ export const Service = () => {
               </div>
             </div>
           </div>
-          <div className='w-2/4  '>
+          <div className='md:w-2/4  mt-[15px] md:mt-[0px] '>
           <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
-              <MdOutlineMobileFriendly className='text-white text-[80px]' />
-              <h1 className='text-white font-vollo font-bold text-[25px] mt-[10px]'>App Development</h1>
-              <div className='flex gap-[100px] text-[#37B7C3] mt-[15px] font-bold'>
+              <MdOutlineMobileFriendly className='text-white md:text-[80px] text-[40px]' />
+              <h1 className='text-white font-vollo font-bold md:text-[25px] text-[15px] mt-[10px]'>App Development</h1>
+              <div className='md:flex gap-[100px] text-[#37B7C3] mt-[15px] font-bold text-[13px] md:text-[16px]'>
                 <div>
 
                   <p>React Native</p>
