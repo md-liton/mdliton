@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { RiComputerLine } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa6";
 import { MdOutlineMobileFriendly } from "react-icons/md";
@@ -11,9 +11,22 @@ import { FaCode } from "react-icons/fa";
 
 
 export const Service = () => {
+
+  useEffect(() => {
+    const service = document.querySelector('.service');
+    const width = window.innerWidth;
+
+    if (width < 768) {
+      service.removeAttribute('data-aos');
+    }
+  }, []);
+
+
+
+
   return (
     <>
-      <div className='py-[20px]'  data-aos="fade-down"
+      <div className='py-[20px] service'  data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
         <h1 className='text-white font-vollo font-bold md:text-[35px] text-[25px]  text-center'>SERVICE</h1>

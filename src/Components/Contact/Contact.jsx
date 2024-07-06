@@ -1,4 +1,4 @@
-import React, {  useRef, useState } from 'react'
+import React, {  useEffect, useRef, useState } from 'react'
 import { FaTelegramPlane } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
@@ -76,6 +76,15 @@ const Contact = () => {
 
   };
 
+  useEffect(() => {
+    const contact = document.querySelector('.contact');
+    const width = window.innerWidth;
+
+    if (width < 768) {
+      contact.removeAttribute('data-aos');
+    }
+  }, []);
+
 
 
 
@@ -84,7 +93,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className='md:px-[20px] px-[5px] md:py-[100px] py-[30px] ' data-aos="fade-left"
+      <div className='md:px-[20px] px-[5px] md:py-[100px] py-[30px] contact' data-aos="fade-left"
         data-aos-offset="500"
         data-aos-duration="2000">
         <div className='md:flex gap-[50px] items-center '>
@@ -133,7 +142,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className='mt-[40px] rounded-lg'>
-                <textarea  className='md:h-[300px] w-full bg-transparent border border-2 rounded-lg border-[#37B7C3] text-[18px] text-white p-[10px]' placeholder='Massage' name='message'></textarea>
+                <textarea  className='md:h-[300px] h-[200px] w-full bg-transparent border border-2 rounded-lg border-[#37B7C3] text-[18px] text-white p-[10px]' placeholder='Massage' name='message'></textarea>
               </div>
 
               <button type="submit" value="Send" className='text-center text-white font-semibold text-[18px] border border-[#37B7C3]  border-2 rounded-lg py-[8px] px-[25px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer mt-[15px]' >Send <FaTelegramPlane /></button>

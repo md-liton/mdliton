@@ -17,12 +17,13 @@ const Sidebar = () => {
 
   return (
     <>
-
-      <div className=' overflow-hidden p-[10px] md:p-[0px]'>
-      {/* <div className='md:hidden p-[10px]   border border-2 border-[#37B7C3] mb-[10px] rounded-lg flex items-center'>
+    <div className='p-[10px]'>
+      <div className='md:hidden p-[10px]   border border-2 border-[#37B7C3]  rounded-lg flex items-center '>
         <div className='w-1/2  text-white font-vollo font-bold text-[20px]'><FaNodeJs /></div>
         <div className='w-1/2 text-white font-vollo font-bold text-[20px] flex justify-end'><HiMenu /></div>
-      </div> */}
+      </div>
+    </div>
+      <div className=' overflow-hidden p-[10px] md:p-[0px]'>
 
         <div className='box md:h-screen md:w-full '>
           <div className='md:px-[20px] md:py-[40px] p-[10px]'>

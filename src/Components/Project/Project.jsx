@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import img1 from '../../assets/chatting.png'
 import img2 from '../../assets/doob.png'
 import img3 from '../../assets/finsweet.png'
@@ -7,9 +7,23 @@ import { Link } from 'react-router-dom'
 
 
 const Project = () => {
+
+
+  useEffect(() => {
+    const project = document.querySelector('.project');
+    const width = window.innerWidth;
+
+    if (width < 768) {
+      project.removeAttribute('data-aos');
+    }
+  }, []);
+
+
+
+
   return (
     <>
-      <div className='md:py-[20px]'  data-aos="zoom-in-left"
+      <div className='md:py-[20px] project'  data-aos="zoom-in-left"
      data-aos-duration="3000">
         <h1 className='text-white font-vollo font-bold md:text-[35px] text-[25px]  text-center'>PROJECT</h1>
         <div className='md:flex md:gap-[50px] md:mt-[15px]  '>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { SiMongodb,SiExpress ,SiNextdotjs} from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import { FaReact,FaNodeJs } from "react-icons/fa";
@@ -6,6 +6,19 @@ import profile from '../../assets/profile.jpg'
 
 
 const About = () => {
+
+
+    useEffect(()=>{
+        let about =document.querySelector('.about')
+        let width = window.innerWidth
+        
+
+        if(width<768){
+            about.removeAttribute('data-aos');
+        }
+    },[])
+
+
   return (
     <>
           <div className='md:p-[10px] my-[20px] md:my-[0px] about' data-aos="flip-up" data-aos-duration="2000">
