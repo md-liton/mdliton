@@ -2,12 +2,13 @@ import React from 'react'
 import { SiMongodb,SiExpress ,SiNextdotjs} from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import { FaReact,FaNodeJs } from "react-icons/fa";
+import profile from '../../assets/profile.jpg'
 
 
 const About = () => {
   return (
     <>
-          <div className='md:p-[10px] my-[20px] md:my-[0px]' data-aos="flip-up" data-aos-duration="2000">
+          <div className='md:p-[10px] my-[20px] md:my-[0px] about' data-aos="flip-up" data-aos-duration="2000">
               <div className='md:flex md:items-center border border-2 rounded-lg border-[#37B7C3] p-[10px] md:gap-[50px]'>
                   <div className='md:w-3/4  '>
                       <p className='text-white font-vollo font-bold md:text-[35px] text-[25px] '>Hello</p>
@@ -22,7 +23,9 @@ const About = () => {
                       <div className="btn mt-[20px] flex items-center gap-[20px]"></div>
                   </div>
                   <div className='md:w-1/4  '>
-                      <div className='h-[200px] w-[200px] border border-4 rounded-full border-[#37B7C3] hidden md:block'></div>
+                      <div className='h-[200px] w-[200px] border border-4 rounded-full border-[#37B7C3] hidden md:block overflow-hidden'>
+                        <img src={profile} alt="" />
+                      </div>
                   </div>
               </div>
 

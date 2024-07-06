@@ -4,6 +4,10 @@ import Navbar from '../Navbar/Navbar'
 import { FaCloudDownloadAlt,FaLinkedin,FaGithub,FaFacebook } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Link } from 'react-router-dom';
+import { FaNodeJs } from "react-icons/fa";
+import { HiMenu } from "react-icons/hi";
+import profile from '../../assets/profile.jpg'
+
 
 
 
@@ -15,12 +19,17 @@ const Sidebar = () => {
     <>
 
       <div className=' overflow-hidden p-[10px] md:p-[0px]'>
+      {/* <div className='md:hidden p-[10px]   border border-2 border-[#37B7C3] mb-[10px] rounded-lg flex items-center'>
+        <div className='w-1/2  text-white font-vollo font-bold text-[20px]'><FaNodeJs /></div>
+        <div className='w-1/2 text-white font-vollo font-bold text-[20px] flex justify-end'><HiMenu /></div>
+      </div> */}
 
         <div className='box md:h-screen md:w-full '>
           <div className='md:px-[20px] md:py-[40px] p-[10px]'>
             <div className=''>
             <div className='flex justify-center  '>
-              <div className=' h-[80px] w-[80px] rounded-full border border-[#37B7C3] border-[2px] '>
+              <div className=' h-[100px] w-[100px] rounded-full border border-[#37B7C3] border-[2px] overflow-hidden'>
+                <img src={profile} alt="" />
               </div>
             </div>
             <h1 className='text-center text-white font-vollo font-bold text-[18px] my-[10px]'>MD LITON</h1>
