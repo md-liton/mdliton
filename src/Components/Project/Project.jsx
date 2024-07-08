@@ -24,7 +24,7 @@ const Project = () => {
   return (
     <>
       <div className='md:py-[20px] project'  data-aos="zoom-in-left"
-     data-aos-duration="3000">
+     data-aos-duration="1500">
         <h1 className='text-white font-vollo font-bold md:text-[35px] text-[25px]  text-center'>PROJECT</h1>
         <div className='md:flex md:gap-[50px] md:mt-[15px]  '>
           <div className='md:w-1/2'>

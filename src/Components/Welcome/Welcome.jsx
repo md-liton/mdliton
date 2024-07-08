@@ -42,9 +42,9 @@ const Welcome = () => {
 
 
             <div className='md:w-1/2 md:flex md:justify-center '>
-            <div className='box   hidden md:block'>
-              <div className='w-[250px] h-[250px] p-[5px] overflow-hidden p-[10px]'>
-                <img className='rounded-lg' src={profile} alt="" />
+            <div className='box   hidden md:block '>
+              <div className='w-[250px] h-[250px] p-[5px]  p-[10px] flex justify-center items-center'>
+                <img className='rounded-lg w-[230px] h-[230px]' src={profile} alt="" />
               </div>
         </div>
             </div>

@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <>
     <div>
-    <div className='md:flex md:max-w-container md:mx-auto md:gap-[20px]  '>
+    <div className='md:flex md:max-w-container md:mx-auto md:gap-[20px] md:items-center '>
       <div className='home md:w-[20%] md:rounded-xl' data-aos="fade-right"
         data-aos-offset="500"
      data-aos-duration="2000">
