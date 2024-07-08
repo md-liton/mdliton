@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Sidebar.css'
 import Navbar from '../Navbar/Navbar'
 import { FaCloudDownloadAlt,FaLinkedin,FaGithub,FaFacebook } from "react-icons/fa";
@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import { FaNodeJs } from "react-icons/fa";
 import { HiMenu } from "react-icons/hi";
 import profile from '../../assets/profile.jpg'
+import { HiX, HiMenuAlt3 } from 'react-icons/hi';
 
 
 
@@ -14,13 +15,78 @@ import profile from '../../assets/profile.jpg'
 
 
 const Sidebar = () => {
+  const [menubar, setMenubar] = useState(false);
 
   return (
     <>
-    <div className='p-[10px] md:p-[0px]'>
-      <div className='md:hidden p-[10px]   border border-2 border-[#37B7C3]  rounded-lg flex items-center '>
-        <div className='w-1/2  text-white font-vollo font-bold text-[20px]'><FaNodeJs /></div>
-        <div className='w-1/2 text-white font-vollo font-bold text-[20px] flex justify-end'><HiMenu /></div>
+    <div className='md:hidden'>
+    <div className="p-2">
+        <div className="md:hidden p-2 border-2 border-[#37B7C3] rounded-lg flex items-center">
+          <div className="w-1/2 text-white font-vollo font-bold text-2xl">
+            <FaNodeJs />
+          </div>
+          <div
+            onClick={() => setMenubar(!menubar)}
+            className="w-1/2 text-white font-vollo font-bold text-2xl flex justify-end cursor-pointer"
+          >
+            <HiMenu />
+          </div>
+        </div>
+      </div>
+
+      <div className={`menu ${menubar ? 'visible' : ''}`}>
+        <div className="menu-content">
+          <div className="menu-header">
+            <h2>Menu</h2>
+            <HiX className="menu-close" onClick={() => setMenubar(false)} />
+          </div>
+          <div className="flex justify-center">
+            <div className="h-24 w-24 rounded-full border-2 border-[#37B7C3] overflow-hidden">
+              <img src={profile} alt="Profile" />
+            </div>
+          </div>
+          <h1 className="text-center text-white font-vollo font-bold text-xl my-2">MD LITON</h1>
+          <p className="text-center text-white font-play font-thin text-[14px] px-2 md:px-0 mb-[10px]">
+            I'm a Mern Stack Developer.
+          </p>
+          <div className="flex justify-center items-center md:pt-5">
+            <div className="text-center text-white font-vollo font-bold text-[10px] border-2 border-[#37B7C3] rounded-lg py-[5px] px-[7px] hover:border-[#45f3ff] flex items-center justify-center gap-2 cursor-pointer">
+              <FaCloudDownloadAlt />
+              <span>Download CV</span>
+            </div>
+          </div>
+
+          <div className=' mt-[25px]'>
+              <Link to='/'  onClick={() => setMenubar(false)}>
+                <div className='text-center text-white font-vollo font-bold text-[15px]  rounded-lg py-[10px] px-[35px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+                  Home
+                </div>
+              </Link>
+              <Link to='/about' onClick={() => setMenubar(false)}>
+                <div className='text-center text-white font-vollo font-bold text-[15px]  rounded-lg py-[10px] px-[35px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+                  About me
+                </div>
+              </Link>
+              <Link to='/Service'  onClick={() => setMenubar(false)}>
+                <div className='text-center text-white font-vollo font-bold text-[15px]  rounded-lg py-[10px] px-[35px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+                  Service
+                </div>
+              </Link>
+              <Link to='/project'  onClick={() => setMenubar(false)}>
+                <div className='text-center text-white font-vollo font-bold text-[15px]  rounded-lg py-[10px] px-[35px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+                  Project
+                </div>
+              </Link>
+              <Link to='/contact'  onClick={() => setMenubar(false)}>
+                <div className='text-center text-white font-vollo font-bold text-[15px]  rounded-lg py-[10px] px-[35px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+                  Contact
+                </div>
+              </Link>
+          </div>
+
+
+
+        </div>
       </div>
     </div>
       <div className=' overflow-hidden p-[10px] md:p-[0px]'>
