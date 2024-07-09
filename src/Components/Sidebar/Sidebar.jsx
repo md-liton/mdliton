@@ -100,12 +100,12 @@ const Sidebar = () => {
               </div>
             </div>
             <h1 className='text-center text-white font-vollo font-bold text-[18px] my-[10px]'>MD LITON</h1>
-            <p className='text-center text-white font-play font-thin text-[13px] px-[40px] md:px-[0px]'>I'm a Mern Stack Developer. I strive to create simple, original, and impactful User Experiences</p>
+            <p className='text-center text-white font-play font-thin text-[13px] px-[40px] md:px-[0px]'>I'm a Mern Stack Developer. <span className='md:hidden lg:block'>I strive to create simple, original, and impactful User Experiences</span></p>
             </div>
 
 
-            <div className='flex md:justify-between justify-center mt-[10px]  p-[20px] gap-[20px] md:gap-0'>
-              <Link  to='https://www.linkedin.com/in/md-liton-40b119218/' target='_blank' className='w-[40px] h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'><FaLinkedin />
+            <div className='flex  justify-center mt-[10px]  p-[20px] gap-[20px] '>
+              <Link  to='https://www.linkedin.com/in/md-liton-40b119218/' target='_blank' className='w-[40px] h-[40px] l rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white  '><FaLinkedin />
               </Link>
               <Link to='https://github.com/md-liton' target='_blank' className='w-[40px] h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'><FaGithub />
               </Link>
@@ -113,11 +113,11 @@ const Sidebar = () => {
               </Link>
             </div>
             <div className='flex justify-center items-center md:pt-[20px]'>
-            <div className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3] border-2 rounded-lg py-[8px] px-[14px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+            <div className='text-center text-white font-vollo font-bold text-[13px] md:text-[8px] lg:text-[15px] border border-[#37B7C3] border-2 rounded-lg py-[8px] px-[14px] md::py-[4px] md:px-[8px] lg:py-[8px] lg:px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
                 <span><FaCloudDownloadAlt /></span> <span>Download CV</span>
                 </div>
             </div>
-            <div className='  w-full flex justify-center items-center mt-[120px]  pl-[60px] md:block hidden '>
+            <div className='  lg:w-full flex justify-center items-center mt-[80px] lg:mt-[120px]  lg:pl-[60px] md:block hidden '>
               <Navbar />
             </div>
           </div>

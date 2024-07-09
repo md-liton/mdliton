@@ -17,23 +17,23 @@ const Welcome = () => {
   })
   return (
     <>
-      <div className='p-[10px]'>
-        <div className=' border border-2 rounded-lg border-[#37B7C3] p-[10px]'>
+      <div className='lg:p-[10px]'>
+        <div className=' border border-2 rounded-lg border-[#37B7C3] lg:p-[10px]'>
           <div className='md:flex md:items-center'>
 
 
             <div className='md:w-1/2 p-[10px]'>
-              <h1 className='text-white font-vollo font-bold md:text-[45px] text-[30px] '>Md Liton</h1>
+              <h1 className='text-white font-vollo font-bold  lg:text-[45px] text-[30px] '>Md Liton</h1>
 
-              <div className='md:h-[50px]'>
-                <p className='text-[#37B7C3] font-vollo font-semibold md:text-[30px] text-[25px] '><span>{text}</span> <span className='text-[#00abf0]'>Developer</span> </p>
+              <div className='lg:h-[50px]'>
+                <p className='text-[#37B7C3] font-vollo font-semibold lg:text-[30px] text-[25px] '><span>{text}</span> <span className='text-[#00abf0]'>Developer</span> </p>
               </div>
 
 
-              <p className=' text-white font-play font-thin text-[13px]'>Working with client and community, we deliver masterplans that create vibrant new places and spaces, attract people, and encourage investment through..</p>
-              <div className="btn mt-[20px] flex md:justify-start justify-center gap-[20px] ">
+              <p className=' text-white font-play font-thin text-[13px]'>Working with client and community, we deliver masterplans that create vibrant new places and spaces, attract people, and encourage investment through.</p>
+              <div className="btn lg:mt-[20px] mt-[8px] flex md:justify-start justify-center gap-[20px] ">
                 <Link to='/contact'>
-                <div className='text-center text-white font-vollo font-bold text-[13px] border border-[#37B7C3]  border-2 rounded-lg py-[10px] px-[35px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+                <div className='text-center text-white font-vollo font-bold text-[13px] md:text-[8px] lg:text-[15px] border border-[#37B7C3] border-2 rounded-lg py-[8px] px-[14px] md::py-[4px] md:px-[8px] lg:py-[8px] lg:px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
                 <span>Hire Me</span> <span><FaTelegramPlane /></span>
                 </div>
                 </Link>
@@ -43,8 +43,8 @@ const Welcome = () => {
 
             <div className='md:w-1/2 md:flex md:justify-center '>
             <div className='box   hidden md:block '>
-              <div className='w-[250px] h-[250px] p-[5px]  p-[10px] flex justify-center items-center'>
-                <img className='rounded-lg w-[230px] h-[230px]' src={profile} alt="" />
+              <div className='lg:w-[250px] lg:h-[250px] w-[130px] h-[130px] p-[5px]  p-[10px] flex justify-center items-center'>
+                <img className='rounded-lg lg:w-[230px] lg:h-[230px] w-[120px] h-[120px]' src={profile} alt="" />
               </div>
         </div>
             </div>
@@ -53,11 +53,11 @@ const Welcome = () => {
           </div>
 
         </div>
-        <div className=' border border-2 rounded-lg border-[#37B7C3] p-[20px] mt-[15px]'>
+        <div className=' border border-2 rounded-lg border-[#37B7C3] lg:p-[20px] p-[10px] mt-[15px]'>
         <h1 className='text-white font-vollo font-bold text-[25px] '>What I do</h1>
         <p className=' text-white font-play font-thin text-[13px] '>I have more than 2 years experience building dynamic website for clients all over the world.Below is a quick overview of my main technical skill sets and technologies I use.
         Want to find out more about my experience? Check out my online resume and project.</p>
-        <div className='mt-[30px]'>
+        <div className='lg:mt-[30px] mt-[8px]'>
           <Skills/>
         </div>
 
