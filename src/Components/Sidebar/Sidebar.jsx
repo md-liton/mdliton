@@ -127,11 +127,11 @@ const Sidebar = () => {
               </Link>
             </div>
             <div className='flex justify-center items-center md:pt-[20px]'>
-            <div className='text-center text-white font-vollo font-bold text-[13px] md:text-[8px] lg:text-[15px] border border-[#37B7C3] border-2 rounded-lg py-[8px] px-[14px] md:py-[4px] md:px-[8px] lg:py-[8px] lg:px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+            <div className='text-center text-white font-vollo font-bold text-[13px] md:text-[8px] xl:text-[15px] border border-[#37B7C3] border-2 rounded-lg py-[8px] px-[14px] md:py-[4px] md:px-[8px] lg:py-[8px] lg:px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
                 <span><FaCloudDownloadAlt /></span> <span>Download CV</span>
                 </div>
             </div>
-            <div className='  lg:w-full flex justify-center items-center mt-[80px] lg:mt-[120px]  lg:pl-[60px] md:block hidden '>
+            <div className='  xl:w-full flex justify-center items-center mt-[80px] lg:pl-[20px] xl:mt-[120px]  xl:pl-[60px] md:block hidden '>
               <Navbar />
             </div>
           </div>

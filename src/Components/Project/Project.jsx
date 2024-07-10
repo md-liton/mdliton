@@ -23,10 +23,10 @@ const Project = () => {
 
   return (
     <>
-      <div className='py-[20px] project'  data-aos="zoom-in-left"
+      <div className='py-[20px] lg:py-0 project'  data-aos="zoom-in-left"
      data-aos-duration="1500">
-        <h1 className='text-white font-vollo font-bold lg:text-[35px] text-[25px]  text-center'>PROJECT</h1>
-        <div className='md:flex lg:gap-[50px] gap-[20px] md:mt-[15px]  '>
+        <h1 className='text-white font-vollo font-bold xl:text-[35px] text-[25px]  text-center'>PROJECT</h1>
+        <div className='md:flex xl:gap-[50px] gap-[20px] md:mt-[15px]  '>
           <div className='md:w-1/2'>
             <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
               <div className='lg:h-[210px] h-[150px] w-full'>
@@ -57,7 +57,7 @@ const Project = () => {
           </div>
 
         </div>
-        <div className='md:flex lg:gap-[50px] gap-[20px] mt-[15px]  '>
+        <div className='md:flex xl:gap-[50px] gap-[20px] mt-[15px]  '>
           <div className='md:w-1/2'>
             <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
               <div className='lg:h-[210px] h-[150px] w-full'>

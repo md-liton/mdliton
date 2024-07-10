@@ -102,11 +102,11 @@ const Contact = () => {
 
   return (
     <>
-      <div className='lg:px-[20px] lg:px-[5px] lg:py-[100px] contact ' data-aos="fade-left"
+      <div className='lg:px-[20px] lg:px-[5px] xl:py-[100px] contact ' data-aos="fade-left"
         data-aos-offset="500"
         data-aos-duration="2000">
         <div className='md:flex lg:gap-[50px]  items-center '>
-          <div className='md:w-1/2   lg:p-[40px]  p-[10px]  flex justify-center items-center'>
+          <div className='md:w-1/2   xl:p-[40px]  p-[10px]  flex justify-center items-center'>
             <div>
               <p className='text-[#37B7C3] font-vollo font-semibold lg:text-[45px] text-[25px] '><span>Dhaka</span> <span className='text-[#00abf0]'>Bangladesh</span> </p>
               <p className=' font-vollo font-semibold lg:text-[20px] text-[17px] lg:mt-[20px]  text-[#999999]'>Chalabon Dakshinkhan Uttara Dhaka-1230</p>
