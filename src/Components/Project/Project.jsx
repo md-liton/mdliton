@@ -23,7 +23,7 @@ const Project = () => {
 
   return (
     <>
-      <div className='md:py-[20px] project'  data-aos="zoom-in-left"
+      <div className='py-[20px] project'  data-aos="zoom-in-left"
      data-aos-duration="1500">
         <h1 className='text-white font-vollo font-bold lg:text-[35px] text-[25px]  text-center'>PROJECT</h1>
         <div className='md:flex lg:gap-[50px] gap-[20px] md:mt-[15px]  '>

@@ -3,7 +3,7 @@ import './Sidebar.css'
 import Navbar from '../Navbar/Navbar'
 import { FaCloudDownloadAlt,FaLinkedin,FaGithub,FaFacebook } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { FaNodeJs } from "react-icons/fa";
 import { HiMenu } from "react-icons/hi";
 import profile from '../../assets/profile.jpg'
@@ -15,7 +15,21 @@ import { HiX, HiMenuAlt3 } from 'react-icons/hi';
 
 
 const Sidebar = () => {
+  const location =useLocation()
   const [menubar, setMenubar] = useState(false);
+
+  useEffect(()=>{
+    let box = document.querySelector('.box')
+    const width = window.innerWidth;
+
+    if (width < 768) {
+      if(location.pathname == '/' ){
+        box.classList.remove('hidden')
+      }else{
+        box.classList.add('hidden')
+      }
+    }
+  },[location])
 
   return (
     <>
@@ -113,7 +127,7 @@ const Sidebar = () => {
               </Link>
             </div>
             <div className='flex justify-center items-center md:pt-[20px]'>
-            <div className='text-center text-white font-vollo font-bold text-[13px] md:text-[8px] lg:text-[15px] border border-[#37B7C3] border-2 rounded-lg py-[8px] px-[14px] md::py-[4px] md:px-[8px] lg:py-[8px] lg:px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+            <div className='text-center text-white font-vollo font-bold text-[13px] md:text-[8px] lg:text-[15px] border border-[#37B7C3] border-2 rounded-lg py-[8px] px-[14px] md:py-[4px] md:px-[8px] lg:py-[8px] lg:px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
                 <span><FaCloudDownloadAlt /></span> <span>Download CV</span>
                 </div>
             </div>

@@ -55,7 +55,7 @@ const Welcome = () => {
         </div>
         <div className=' border border-2 rounded-lg border-[#37B7C3] lg:p-[20px] p-[10px] mt-[15px]'>
         <h1 className='text-white font-vollo font-bold text-[25px] '>What I do</h1>
-        <p className=' text-white font-play font-thin text-[13px] '>I have more than 2 years experience building dynamic website for clients all over the world.Below is a quick overview of my main technical skill sets and technologies I use.
+        <p className=' text-white font-play font-thin text-[13px] mb-[20px] lg:mb-[0px]'>I have more than 2 years experience building dynamic website for clients all over the world.Below is a quick overview of my main technical skill sets and technologies I use.
         Want to find out more about my experience? Check out my online resume and project.</p>
         <div className='lg:mt-[30px] mt-[8px]'>
           <Skills/>

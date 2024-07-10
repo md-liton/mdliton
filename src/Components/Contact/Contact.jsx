@@ -102,7 +102,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className='lg:px-[20px] lg:px-[5px] lg:py-[100px] lg:py-[30px] contact' data-aos="fade-left"
+      <div className='lg:px-[20px] lg:px-[5px] lg:py-[100px] contact ' data-aos="fade-left"
         data-aos-offset="500"
         data-aos-duration="2000">
         <div className='md:flex lg:gap-[50px]  items-center '>
@@ -116,33 +116,37 @@ const Contact = () => {
           </div>
           <div className='md:w-1/2 border border-2 rounded-lg border-[#37B7C3] lg:p-[40px] p-[20px] mt-[20px] lg:mt-[0px]'>
             <form  ref={form} onSubmit={sendEmail}>
-              <div className='md:flex items-center lg:gap-[50px] gap-[10px]' >
+              <div className='lg:flex items-center lg:gap-[50px] gap-[10px]' >
                 <div>
                   <p className='lg:text-[15px] text-[12px] font-semibold   text-[#37B7C3] pl-[10px] mb-[5px]'>Name</p>
-                  <input onChange={handleName} value={name} className='border border-2 rounded-lg border-[#37B7C3] bg-transparent lg:p-[10px] p-[5px] text-[#999999]' placeholder='Name' type="text" name='client_name' />
+                  <input onChange={handleName} value={name} className='w-full border border-2 rounded-lg border-[#37B7C3] bg-transparent lg:p-[10px] p-[5px] text-[#999999]' placeholder='Name' type="text" name='client_name' />
                   <p className='text-[15px] font-semibold mb-[5px]  text-red-500 pl-[10px] h-[10px]'>{nameErr}</p>
                 </div>
                 <div>
                   <p className='lg:text-[15px] text-[12px] font-semibold   text-[#37B7C3] pl-[10px] mb-[5px]'>Email</p>
-                  <input onChange={handleEmail} value={email}className='border border-2 rounded-lg border-[#37B7C3] bg-transparent lg:p-[10px] p-[5px] text-[#999999]' placeholder='Email' type="email" name='client_email' />
+                  <input onChange={handleEmail} value={email}className='w-full border border-2 rounded-lg border-[#37B7C3] bg-transparent lg:p-[10px] p-[5px] text-[#999999]' placeholder='Email' type="email" name='client_email' />
                   <p className='text-[15px] font-semibold mb-[5px]  text-red-500 pl-[10px] h-[10px]'>{emailErr}</p>
                 </div>
               </div>
-              <div className='md:flex items-center gap-[50px] md:mt-[25px]'>
+              <div className='lg:flex items-center gap-[50px] md:mt-[25px]'>
                 <div>
                   <p className='lg:text-[15px] text-[12px] font-semibold   text-[#37B7C3] pl-[10px] mb-[5px]'>Number(optional)</p>
-                  <input value={number} onChange={(e)=>setNumber(e.target.value)} className='border border-2 rounded-lg border-[#37B7C3] bg-transparent md:p-[10px] p-[5px] text-[#999999] mb-[20px] md:mb-[0px]' placeholder=' Number(optional)' type="text" name='client_number' />
+                  <input value={number} onChange={(e)=>setNumber(e.target.value)} className='w-full border border-2 rounded-lg border-[#37B7C3] bg-transparent md:p-[10px] p-[5px] text-[#999999] mb-[20px] md:mb-[0px]' placeholder=' Number(optional)' type="text" name='client_number' />
                 </div>
                 <div>
-                  <p className='lg:text-[15px] text-[12px] font-semibold   text-[#37B7C3] pl-[10px] mb-[5px]'>Subject(optional)</p>
-                  <input onChange={(e)=>setSubject(e.target.value)} value={subject} className='border border-2 rounded-lg border-[#37B7C3] bg-transparent md:p-[10px] p-[5px] text-[#999999]' placeholder='Subject(optional)' type="text" name='subject' />
+                  <p className='lg:text-[15px] text-[12px] font-semibold   text-[#37B7C3] pl-[10px] mb-[5px] mt-[10px] lg:mt-[0px]'>Subject(optional)</p>
+                  <input onChange={(e)=>setSubject(e.target.value)} value={subject} className='w-full border border-2 rounded-lg border-[#37B7C3] bg-transparent md:p-[10px] p-[5px] text-[#999999] ' placeholder='Subject(optional)' type="text" name='subject' />
                 </div>
               </div>
               <div className='mt-[40px] rounded-lg'>
-                <textarea onChange={(e)=>setMassage(e.target.value)} value={massage}  className='md:h-[300px] h-[200px] w-full bg-transparent border border-2 rounded-lg border-[#37B7C3] text-[18px] text-white p-[10px]' placeholder='Massage' name='message'></textarea>
+                <textarea onChange={(e)=>setMassage(e.target.value)} value={massage}  className='lg:h-[300px] h-[200px] w-full bg-transparent border border-2 rounded-lg border-[#37B7C3] text-[18px] text-white p-[10px]' placeholder='Massage' name='message'></textarea>
               </div>
 
+              <div className='flex justify-center lg:block'>
+
               <button type="submit" value="Send" className='text-center text-white font-semibold text-[18px] border border-[#37B7C3]  border-2 rounded-lg py-[8px] px-[25px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer mt-[15px]' >Send <FaTelegramPlane /></button>
+              </div>
+
 
             </form>
 
