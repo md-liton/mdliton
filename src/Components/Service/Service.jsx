@@ -26,7 +26,7 @@ export const Service = () => {
 
   return (
     <>
-      <div className='py-[20px] lg:py-0 service '  data-aos="fade-down"
+      <div className=' service '  data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
         <h1 className='text-white font-vollo font-bold lg:text-[35px] text-[25px]  text-center'>SERVICE</h1>

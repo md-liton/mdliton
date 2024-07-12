@@ -21,7 +21,7 @@ const About = () => {
 
   return (
     <>
-          <div className='xl:p-[10px] my-[20px] md:my-[0px] about' data-aos="flip-up" data-aos-duration="2000">
+          <div className='xl:p-[10px]  about' data-aos="flip-up" data-aos-duration="2000">
               <div className='md:flex md:items-center border border-2 rounded-lg border-[#37B7C3] p-[10px] md:gap-[25px] xl:gap-[50px] '>
                   <div className='lg:w-3/4  '>
                       <p className='text-white font-vollo font-bold xl:text-[35px] text-[25px] '>Hello</p>

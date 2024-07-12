@@ -63,12 +63,6 @@ const Sidebar = () => {
           <p className="text-center text-white font-play font-thin text-[14px] px-2 md:px-0 mb-[10px]">
             I'm a Mern Stack Developer.
           </p>
-          <div className="flex justify-center items-center md:pt-5">
-            <div className="text-center text-white font-vollo font-bold text-[10px] border-2 border-[#37B7C3] rounded-lg py-[5px] px-[7px] hover:border-[#45f3ff] flex items-center justify-center gap-2 cursor-pointer">
-              <FaCloudDownloadAlt />
-              <span>Download CV</span>
-            </div>
-          </div>
 
           <div className=' mt-[25px]'>
               <Link to='/'  onClick={() => setMenubar(false)}>
