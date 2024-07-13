@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import './Sidebar.css'
 import Navbar from '../Navbar/Navbar'
-import { FaCloudDownloadAlt,FaLinkedin,FaGithub,FaFacebook } from "react-icons/fa";
+import { FaCloudDownloadAlt,FaLinkedin,FaGithub,FaNodeJs } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Link, useLocation } from 'react-router-dom';
-import { FaNodeJs } from "react-icons/fa";
-import { HiMenu } from "react-icons/hi";
+import { HiMenu,HiX } from "react-icons/hi";
 import profile from '../../assets/profile.jpg'
-import { HiX, HiMenuAlt3 } from 'react-icons/hi';
+import cv from '../../assets/cv.pdf'
 
 
 
@@ -121,7 +120,7 @@ const Sidebar = () => {
               </Link>
             </div>
             <div className='flex justify-center items-center md:pt-[20px]'>
-                <a href='https://i.ibb.co/0FrSH5V/MERN-STACK-DEVELOPER-CV.jpg' download='cv' target='_blank'>
+                <a href={cv} download='Md Liton Cv'>
                 <div className='text-center text-white font-vollo font-bold text-[13px] md:text-[8px] xl:text-[15px] border border-[#37B7C3] border-2 rounded-lg py-[8px] px-[14px] md:py-[4px] md:px-[8px] lg:py-[8px] lg:px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '  >
                 <span><FaCloudDownloadAlt /></span> <span>Download CV</span>
                 </div>
