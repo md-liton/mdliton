@@ -28,8 +28,8 @@ const Project = () => {
         <h1 className='text-white font-vollo font-bold xl:text-[35px] text-[25px]  text-center'>PROJECT</h1>
         <div className='md:flex xl:gap-[50px] gap-[20px] md:mt-[15px]  '>
           <div className='md:w-1/2'>
-            <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
-              <div className='lg:h-[210px] h-[150px] w-full'>
+            <div className='border border-2 rounded-lg border-[#37B7C3]  p-[15px] xl:p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
+              <div className='xl:h-[210px] h-[150px] w-full'>
                 <img className="rounded-lg h-full w-full" src={img1} alt="" />
               </div>
               <div>
@@ -42,8 +42,8 @@ const Project = () => {
             </div>
           </div>
           <div className='md:w-1/2 mt-[15px] md:mt-[0px]'>
-            <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
-              <div className='lg:h-[210px] h-[150px] w-full'>
+            <div className='border border-2 rounded-lg border-[#37B7C3]  p-[15px] xl:p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
+              <div className='xl:h-[210px] h-[150px] w-full'>
                 <img className="rounded-lg h-full w-full" src={img2} alt="" />
               </div>
               <div>
@@ -59,8 +59,8 @@ const Project = () => {
         </div>
         <div className='md:flex xl:gap-[50px] gap-[20px] mt-[15px]  '>
           <div className='md:w-1/2'>
-            <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
-              <div className='lg:h-[210px] h-[150px] w-full'>
+            <div className='border border-2 rounded-lg border-[#37B7C3]  p-[15px] xl:p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
+              <div className='xl:h-[210px] h-[150px] w-full'>
                 <img className="rounded-lg h-full w-full" src={img3} alt="" />
               </div>
               <div>
@@ -73,8 +73,8 @@ const Project = () => {
             </div>
           </div>
           <div className='md:w-1/2 mt-[15px] md:mt-[0px]'>
-            <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
-              <div className='lg:h-[210px] h-[150px] w-full'>
+            <div className='border border-2 rounded-lg border-[#37B7C3]  p-[15px] xl:p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300  '>
+              <div className='xl:h-[210px] h-[150px] w-full'>
                 <img className="rounded-lg h-full w-full" src={img4} alt="" />
               </div>
               <div>
@@ -88,7 +88,7 @@ const Project = () => {
           </div>
 
         </div>
-                  <div className='flex justify-center md:justify-start mt-[20px]'>
+                  <div className='flex justify-center md:justify-start xl:mt-[20px] mt-[15px]'>
                   <Link to='https://github.com/md-liton?tab=repositories' target='_blank' className='text-center text-white font-vollo font-bold md:text-[13px] text-[12px] border border-[#37B7C3]   border-2 rounded-lg py-[8px] px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>View More Project</Link>
                   </div>
         

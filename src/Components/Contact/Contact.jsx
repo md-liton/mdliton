@@ -105,18 +105,18 @@ const Contact = () => {
       <div className='lg:px-[20px] lg:px-[5px] xl:py-[100px] contact ' data-aos="fade-left"
         data-aos-offset="500"
         data-aos-duration="2000">
-        <div className='md:flex lg:gap-[50px]  items-center '>
+        <div className='md:flex xl:gap-[50px] lg:gap-[30px]  items-center '>
           <div className='md:w-1/2   xl:p-[40px]  p-[10px]  flex justify-center items-center'>
             <div>
-              <p className='text-[#37B7C3] font-vollo font-semibold lg:text-[45px] text-[25px] '><span>Dhaka</span> <span className='text-[#00abf0]'>Bangladesh</span> </p>
-              <p className=' font-vollo font-semibold lg:text-[20px] text-[17px] lg:mt-[20px]  text-[#999999]'>Chalabon Dakshinkhan Uttara Dhaka-1230</p>
-              <p className='text-white  font-semibold lg:text-[25px] text-[18px] lg:mt-[30px]'>mdliton5506@gmail.com</p>
-              <p className='text-white  font-semibold lg:text-[25px] text-[18px] lg:mt-[25px] '>+8801953975506</p>
+              <p className='text-[#37B7C3] font-vollo font-semibold xl:text-[45px] text-[25px] '><span>Dhaka</span> <span className='text-[#00abf0]'>Bangladesh</span> </p>
+              <p className=' font-vollo font-semibold xl:text-[20px] text-[16px] lg:mt-[20px]  text-[#999999]'>Chalabon Dakshinkhan Uttara Dhaka-1230</p>
+              <p className='text-white  font-semibold xl:text-[25px] text-[18px] lg:mt-[30px]'>mdliton5506@gmail.com</p>
+              <p className='text-white  font-semibold xl:text-[25px] text-[18px] lg:mt-[25px] '>+8801953975506</p>
             </div>
           </div>
-          <div className='md:w-1/2 border border-2 rounded-lg border-[#37B7C3] lg:p-[40px] p-[20px] mt-[20px] lg:mt-[0px]'>
+          <div className='md:w-1/2 border border-2 rounded-lg border-[#37B7C3] xl:p-[40px] p-[20px] mt-[20px] lg:mt-[0px]'>
             <form  ref={form} onSubmit={sendEmail}>
-              <div className='lg:flex items-center lg:gap-[50px] gap-[10px]' >
+              <div className='lg:flex items-center xl:gap-[50px] gap-[10px]' >
                 <div>
                   <p className='lg:text-[15px] text-[12px] font-semibold   text-[#37B7C3] pl-[10px] mb-[5px]'>Name</p>
                   <input onChange={handleName} value={name} className='w-full border border-2 rounded-lg border-[#37B7C3] bg-transparent lg:p-[10px] p-[5px] text-[#999999]' placeholder='Name' type="text" name='client_name' />
@@ -128,7 +128,7 @@ const Contact = () => {
                   <p className='text-[15px] font-semibold mb-[5px]  text-red-500 pl-[10px] h-[10px]'>{emailErr}</p>
                 </div>
               </div>
-              <div className='lg:flex items-center gap-[50px] md:mt-[25px]'>
+              <div className='lg:flex items-center xl:gap-[50px] gap-[10px] md:mt-[25px]'>
                 <div>
                   <p className='lg:text-[15px] text-[12px] font-semibold   text-[#37B7C3] pl-[10px] mb-[5px]'>Number(optional)</p>
                   <input value={number} onChange={(e)=>setNumber(e.target.value)} className='w-full border border-2 rounded-lg border-[#37B7C3] bg-transparent md:p-[10px] p-[5px] text-[#999999] mb-[20px] md:mb-[0px]' placeholder=' Number(optional)' type="text" name='client_number' />

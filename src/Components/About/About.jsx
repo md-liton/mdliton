@@ -32,7 +32,7 @@ const About = () => {
                       </div>
 
 
-                      <p className=' text-white font-play font-thin text-[13px] text-justify'>I have more than 2 years+ experience building dynamic website for clients all over the world.Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my online resume and project.<span className='md:hidden lg:block'>Working with client and community, we deliver masterplans that create vibrant new places and spaces, attract people, and encourage investment through</span></p>
+                      <p className=' text-white font-play font-thin text-[13px] text-justify'>I have more than 2 years+ experience building dynamic website for clients all over the world.Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my online resume and project.<span className='md:hidden 2xl:block'>Working with client and community, we deliver masterplans that create vibrant new places and spaces, attract people, and encourage investment through</span></p>
                       <div className="btn mt-[20px] flex items-center gap-[20px]"></div>
                   </div>
                   <div className='lg:w-1/4  '>
@@ -45,8 +45,8 @@ const About = () => {
               <div className='md:flex md:gap-[20px] xl:gap-[50px] mt-[15px] '>
                   <div className='lg:w-2/4 '>
                       <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px]'>
-                          <p className='text-white font-vollo font-bold xl:text-[35px] text-[25px] '>Certificate</p>
-                          <h5 className='text-[#37B7C3] font-vollo font-bold xl:text-[20px] text-[15px]'>MERN Stack Development - (Creative It Institute)</h5>
+                          <p className='text-white font-vollo font-bold 2xl:text-[35px] text-[25px] '>Certificate</p>
+                          <h5 className='text-[#37B7C3] font-vollo font-bold lg:text-[14px] xl:text-[20px] text-[15px]'>MERN Stack Development - (Creative It Institute)</h5>
                           <p className=' font-vollo font-bold text-[13px] text-[#3C5B6F]'>(2023 - 2024) - Dhaka , Bangladesh</p>
                           <h5 className='text-[#37B7C3] font-vollo font-bold xl:text-[20px] text-[15px] mt-[15px] '>Web Design - (Creative It Institute)</h5>
                           <p className=' font-vollo font-bold text-[13px] text-[#3C5B6F]'>(2022) - Dhaka , Bangladesh</p>
@@ -56,7 +56,7 @@ const About = () => {
                   </div>
                   <div className='lg:w-2/4  mt-[20px] md:mt-[0px]'>
                       <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px]'>
-                          <p className='text-white font-vollo font-bold xl:text-[35px] text-[25px]'>Education</p>
+                          <p className='text-white font-vollo font-bold 2xl:text-[35px] text-[25px]'>Education</p>
                           <h5 className='text-[#37B7C3] font-vollo font-bold xl:text-[20px] text-[15px] '>Degree - (Tongi Govt. College)</h5>
                           <p className=' font-vollo font-bold text-[13px] text-[#3C5B6F]'>(2021 - 2025 Runnig) - Gazipur , Bangladesh</p>
                           <h5 className='text-[#37B7C3] font-vollo font-bold xl:text-[20px] text-[15px] mt-[15px] '>HSC - (Uttara High School & College)</h5>

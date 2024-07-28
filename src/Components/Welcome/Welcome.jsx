@@ -17,23 +17,23 @@ const Welcome = () => {
   })
   return (
     <>
-      <div className='xl:p-[10px]'>
+      <div className='2xl:p-[10px]'>
         <div className=' border border-2 rounded-lg border-[#37B7C3] xl:p-[10px]'>
           <div className='md:flex md:items-center'>
 
 
-            <div className='md:w-1/2 p-[10px]'>
-              <h1 className='text-white font-vollo font-bold  xl:text-[45px] text-[30px] '>Md Liton</h1>
+            <div className='md:w-1/2 px-[10px]'>
+              <h1 className='text-white font-vollo font-bold  2xl:text-[45px] text-[30px] '>Md Liton</h1>
 
-              <div className='lg:h-[50px]'>
-                <p className='text-[#37B7C3] font-vollo font-semibold xl:text-[30px] text-[25px] '><span>{text}</span> <span className='text-[#00abf0]'>Developer</span> </p>
+              <div className='2xl:h-[50px]'>
+                <p className='text-[#37B7C3] font-vollo font-semibold 2xl:text-[30px] text-[25px] '><span>{text}</span> <span className='text-[#00abf0]'>Developer</span> </p>
               </div>
 
 
               <p className=' text-white font-play font-thin text-[13px]'>Working with client and community, we deliver masterplans that create vibrant new places and spaces, attract people, and encourage investment through.</p>
-              <div className="btn lg:mt-[20px] mt-[8px] flex md:justify-start justify-center gap-[20px] ">
+              <div className="btn lg:my-[20px] my-[8px] flex md:justify-start justify-center gap-[20px] ">
                 <Link to='/contact'>
-                <div className='text-center text-white font-vollo font-bold text-[13px] md:text-[8px] lg:text-[15px] border border-[#37B7C3] border-2 rounded-lg py-[8px] px-[14px] md:py-[5px] md:px-[8px] xl:py-[8px] xl:px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
+                <div className='text-center text-white font-vollo font-bold text-[13px] md:text-[8px] xl:text-[15px] border border-[#37B7C3] border-2 rounded-lg py-[8px] px-[14px] md:py-[5px] md:px-[8px] xl:py-[8px] xl:px-[14px]  hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex items-center justify-center gap-[10px] cursor-pointer '>
                 <span>Hire Me</span> <span><FaTelegramPlane /></span>
                 </div>
                 </Link>
@@ -57,7 +57,7 @@ const Welcome = () => {
         <h1 className='text-white font-vollo font-bold text-[25px] '>What I do</h1>
         <p className=' text-white font-play font-thin text-[13px] mb-[20px] xl:mb-[0px]'>I have more than 2 years experience building dynamic website for clients all over the world.Below is a quick overview of my main technical skill sets and technologies I use.
         Want to find out more about my experience? Check out my online resume and project.</p>
-        <div className='xl:mt-[30px] mt-[8px]'>
+        <div className='2xl:mt-[30px] '>
           <Skills/>
         </div>
 

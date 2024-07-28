@@ -29,11 +29,11 @@ export const Service = () => {
       <div className=' service '  data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
-        <h1 className='text-white font-vollo font-bold lg:text-[35px] text-[25px]  text-center'>SERVICE</h1>
+        <h1 className='text-white font-vollo font-bold xl:text-[35px] text-[25px]  text-center'>SERVICE</h1>
         <div className='md:flex lg:gap-[50px] gap-[20px] mt-[15px] '>
           <div className='md:w-2/4 '>
             <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
-              <FaCode className='text-white lg:text-[80px] text-[40px]' />
+              <FaCode className='text-white xl:text-[80px] text-[40px]' />
               <h1 className='text-white font-vollo font-bold lg:text-[25px] text-[15px] mt-[10px]'>Front-End Design</h1>
               <div className='flex lg:gap-[100px] text-[#37B7C3] mt-[15px] font-bold text-[13px] lg:text-[16px] '>
                 <div >
@@ -56,7 +56,7 @@ export const Service = () => {
           </div>
           <div className='md:w-2/4 mt-[15px] md:mt-[0px] '>
           <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
-              <RiComputerLine className='text-white lg:text-[80px] text-[40px]' />
+              <RiComputerLine className='text-white xl:text-[80px] text-[40px]' />
               <h1 className='text-white font-vollo font-bold lg:text-[25px] text-[15px] mt-[10px]'>Front-End Development</h1>
               <div className='flex lg:gap-[100px] text-[#37B7C3] mt-[15px] font-bold text-[13px] lg:text-[16px]'>
                 <div>
@@ -79,7 +79,7 @@ export const Service = () => {
         <div className='md:flex gap-[20px] lg:gap-[50px] mt-[40px] '>
           <div className='md:w-2/4 '>
             <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
-              <FaNodeJs  className='text-white lg:text-[80px] text-[40px]'/>
+              <FaNodeJs  className='text-white xl:text-[80px] text-[40px]'/>
               <h1 className='text-white font-vollo font-bold lg:text-[25px] text-[15px] mt-[10px]'>Back-End Developmnet</h1>
               <div className='flex lg:gap-[100px] text-[#37B7C3] mt-[15px] font-bold text-[13px] lg:text-[16px]'>
                 <div >
@@ -96,7 +96,7 @@ export const Service = () => {
           </div>
           <div className='md:w-2/4  mt-[15px] md:mt-[0px] '>
           <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px] cursor-pointer hover:border-[#45f3ff] ease-in duration-300 '>
-              <MdOutlineMobileFriendly className='text-white lg:text-[80px] text-[40px]' />
+              <MdOutlineMobileFriendly className='text-white xl:text-[80px] text-[40px]' />
               <h1 className='text-white font-vollo font-bold lg:text-[25px] text-[15px] mt-[10px]'>App Development</h1>
               <div className='lg:flex lg:gap-[100px] text-[#37B7C3] mt-[15px] font-bold text-[13px] lg:text-[16px]'>
                 <div>

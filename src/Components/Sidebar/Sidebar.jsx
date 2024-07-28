@@ -32,10 +32,10 @@ const Sidebar = () => {
 
   return (
     <>
-    <div className='md:hidden'>
-    <div className="p-2">
+    <div className='md:hidden relative'>
+    <div className="p-2 fixed top-0 left-0 w-full z-[999] bg-[#081b29]">
         <div className="md:hidden p-2 border-2 border-[#37B7C3] rounded-lg flex items-center">
-          <div className="w-1/2 text-white font-vollo font-bold text-2xl">
+          <div className="w-1/2 text-white font-vollo font-bold text-2xl cursor-pointer">
             <FaNodeJs />
           </div>
           <div
@@ -96,7 +96,7 @@ const Sidebar = () => {
         </div>
       </div>
     </div>
-      <div className=' overflow-hidden p-[10px] md:p-[0px]'>
+      <div className=' overflow-hidden p-[10px] md:p-[0px] mt-[50px] md:mt-0'>
 
         <div className='box md:h-screen md:w-full '>
           <div className='md:px-[20px] md:py-[40px] p-[10px]'>
@@ -107,16 +107,16 @@ const Sidebar = () => {
               </div>
             </div>
             <h1 className='text-center text-white font-vollo font-bold text-[18px] my-[10px]'>MD LITON</h1>
-            <p className='text-center text-white font-play font-thin text-[13px] px-[40px] md:px-[0px]'>I'm a Mern Stack Developer. <span className='md:hidden lg:block'>I strive to create simple, original, and impactful User Experiences</span></p>
+            <p className='text-center text-white font-play font-thin text-[13px] px-[40px] md:px-[0px]'>I'm a Mern Stack Developer. <span className='md:hidden xl:block'>I strive to create simple, original, and impactful User Experiences</span></p>
             </div>
 
 
             <div className='flex  justify-center mt-[10px]  p-[20px] gap-[20px] '>
-              <Link  to='https://www.linkedin.com/in/md-liton-40b119218/' target='_blank' className='w-[40px] h-[40px] l rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white  '><FaLinkedin />
+              <Link  to='https://www.linkedin.com/in/md-liton-40b119218/' target='_blank' className='w-[30px] h-[30px] xl:w-[40px] xl:h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white  '><FaLinkedin />
               </Link>
-              <Link to='https://github.com/md-liton' target='_blank' className='w-[40px] h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'><FaGithub />
+              <Link to='https://github.com/md-liton' target='_blank' className='w-[30px] h-[30px] xl:w-[40px] xl:h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'><FaGithub />
               </Link>
-              <Link to='/contact' className='w-[40px] h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'><SiGmail />
+              <Link to='/contact' className='w-[30px] h-[30px] xl:w-[40px] xl:h-[40px] rounded-full  cursor-pointer border border-[#37B7C3] border-[2px] hover:ease-in hover:duration-300  hover:border-[#45f3ff] flex justify-center items-center text-white'><SiGmail />
               </Link>
             </div>
             <div className='flex justify-center items-center md:pt-[20px]'>
