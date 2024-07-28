@@ -3,7 +3,7 @@ import './Sidebar.css'
 import Navbar from '../Navbar/Navbar'
 import { FaCloudDownloadAlt,FaLinkedin,FaGithub,FaNodeJs } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { HiMenu,HiX } from "react-icons/hi";
 import profile from '../../assets/profile.jpg'
 import cv from '../../assets/cv.pdf'
@@ -14,6 +14,8 @@ import cv from '../../assets/cv.pdf'
 
 
 const Sidebar = () => {
+
+  const navigate = useNavigate()
   const location =useLocation()
   const [menubar, setMenubar] = useState(false);
 
@@ -30,12 +32,16 @@ const Sidebar = () => {
     }
   },[location])
 
+  const nav = ()=>{
+    navigate('/')
+  }
+
   return (
     <>
     <div className='md:hidden relative'>
     <div className="p-2 fixed top-0 left-0 w-full z-[999] bg-[#081b29]">
         <div className="md:hidden p-2 border-2 border-[#37B7C3] rounded-lg flex items-center">
-          <div className="w-1/2 text-white font-vollo font-bold text-2xl cursor-pointer">
+          <div className="w-1/2 text-white font-vollo font-bold text-2xl cursor-pointer" onClick={nav}>
             <FaNodeJs />
           </div>
           <div
@@ -98,8 +104,8 @@ const Sidebar = () => {
     </div>
       <div className=' overflow-hidden p-[10px] md:p-[0px] mt-[50px] md:mt-0'>
 
-        <div className='box md:h-screen md:w-full '>
-          <div className='md:px-[20px] md:py-[40px] p-[10px]'>
+        <div className='box lg:h-screen md:w-full '>
+          <div className='md:px-[20px] xl:py-[40px] p-[10px]'>
             <div className=''>
             <div className='flex justify-center  '>
               <div className=' h-[100px] w-[100px] rounded-full border border-[#37B7C3] border-[2px] overflow-hidden'>

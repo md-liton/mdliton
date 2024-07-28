@@ -56,7 +56,7 @@ function App() {
 
   return (
     <>
-      <div className=" bg-[#081b29] " >
+      <div className=" bg-[#081b29] md:h-screen " >
         <RouterProvider router={router} />
       </div>
     </>

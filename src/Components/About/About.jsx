@@ -21,7 +21,7 @@ const About = () => {
 
   return (
     <>
-          <div className='xl:p-[10px]  about' data-aos="flip-up" data-aos-duration="2000">
+          <div className='2xl:p-[10px]  about' data-aos="flip-up" data-aos-duration="2000">
               <div className='md:flex md:items-center border border-2 rounded-lg border-[#37B7C3] p-[10px] md:gap-[25px] xl:gap-[50px] '>
                   <div className='lg:w-3/4  '>
                       <p className='text-white font-vollo font-bold xl:text-[35px] text-[25px] '>Hello</p>
@@ -46,30 +46,30 @@ const About = () => {
                   <div className='lg:w-2/4 '>
                       <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px]'>
                           <p className='text-white font-vollo font-bold 2xl:text-[35px] text-[25px] '>Certificate</p>
-                          <h5 className='text-[#37B7C3] font-vollo font-bold lg:text-[14px] xl:text-[20px] text-[15px]'>MERN Stack Development - (Creative It Institute)</h5>
-                          <p className=' font-vollo font-bold text-[13px] text-[#3C5B6F]'>(2023 - 2024) - Dhaka , Bangladesh</p>
+                          <h5 className='text-[#37B7C3] font-vollo font-bold lg:text-[13px] xl:text-[20px] text-[15px]'>MERN Stack Development - (Creative It Institute)</h5>
+                          <p className=' font-vollo font-bold text-[12px] text-[#3C5B6F]'>(2023 - 2024) - Dhaka , Bangladesh</p>
                           <h5 className='text-[#37B7C3] font-vollo font-bold xl:text-[20px] text-[15px] mt-[15px] '>Web Design - (Creative It Institute)</h5>
-                          <p className=' font-vollo font-bold text-[13px] text-[#3C5B6F]'>(2022) - Dhaka , Bangladesh</p>
+                          <p className=' font-vollo font-bold text-[12px] text-[#3C5B6F]'>(2022) - Dhaka , Bangladesh</p>
                           <h5 className='text-[#37B7C3] font-vollo font-bold xl:text-[20px] text-[15px] mt-[15px] '>Diploma in MERN  - (Creative It Institute)</h5>
-                          <p className=' font-vollo font-bold text-[13px] text-[#3C5B6F]'>(2023 - 2024) - Dhaka , Bangladesh</p>
+                          <p className=' font-vollo font-bold text-[12px] text-[#3C5B6F]'>(2023 - 2024) - Dhaka , Bangladesh</p>
                       </div>
                   </div>
                   <div className='lg:w-2/4  mt-[20px] md:mt-[0px]'>
                       <div className='border border-2 rounded-lg border-[#37B7C3]  p-[20px]'>
                           <p className='text-white font-vollo font-bold 2xl:text-[35px] text-[25px]'>Education</p>
                           <h5 className='text-[#37B7C3] font-vollo font-bold xl:text-[20px] text-[15px] '>Degree - (Tongi Govt. College)</h5>
-                          <p className=' font-vollo font-bold text-[13px] text-[#3C5B6F]'>(2021 - 2025 Runnig) - Gazipur , Bangladesh</p>
+                          <p className=' font-vollo font-bold text-[12px] text-[#3C5B6F] '>(2021 - 2025 Runnig) - Gazipur , Bangladesh</p>
                           <h5 className='text-[#37B7C3] font-vollo font-bold xl:text-[20px] text-[15px] mt-[15px] '>HSC - (Uttara High School & College)</h5>
-                          <p className=' font-vollo font-bold text-[13px] text-[#3C5B6F]'>(2018-2020) -Uttara Dhaka , Bangladesh</p>
+                          <p className=' font-vollo font-bold text-[12px] text-[#3C5B6F]'>(2018-2020) -Uttara Dhaka , Bangladesh</p>
                           <h5 className='text-[#37B7C3] font-vollo font-bold md:text-[14px]  xl:text-[20px] text-[15px] mt-[15px] '>SSC - (Nawab Habibullah Model School & College)</h5>
-                          <p className=' font-vollo font-bold text-[13px] text-[#3C5B6F]'>(2018) -Uttara Dhaka , Bangladesh</p>
+                          <p className=' font-vollo font-bold text-[12px] text-[#3C5B6F]'>(2018) -Uttara Dhaka , Bangladesh</p>
                       </div>
                   </div>
               </div>
 
-              <div className=' border border-2 rounded-lg border-[#37B7C3] p-[10px] xl:gap-[50px] mt-[15px] '>
+              <div className=' border border-2 rounded-lg border-[#37B7C3] p-[10px] xl:gap-[50px] 2xl:mt-[15px]  mt-[10px]'>
                       <p className='text-white font-vollo font-bold xl:text-[35px] text-[20px] text-center'>What I Use in project</p>
-                      <div className='md:flex lg:justify-center gap-[15px] xl:gap-[25px] md:px-[40px] md:my-[20px] lg:my-[25px] '>
+                      <div className='md:flex lg:justify-center gap-[15px] xl:gap-[25px] md:px-[40px] lg:my-[20px] 2xl:my-[25px] '>
                         <div className=' border border-2 rounded-lg border-[#37B7C3] p-[20px] cursor-pointer text-center mt-[20px] md:mt-[0px]'>
                             <div className='flex justify-center'>
                             <SiMongodb className='text-white text-[20px] xl:text-[40px]' />
