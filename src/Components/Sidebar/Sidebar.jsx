@@ -104,7 +104,7 @@ const Sidebar = () => {
     </div>
       <div className=' overflow-hidden p-[10px] md:p-[0px] mt-[50px] md:mt-0'>
 
-        <div className='box lg:h-screen md:w-full '>
+        <div className='box 2xl:h-screen md:w-full '>
           <div className='md:px-[20px] xl:py-[40px] p-[10px]'>
             <div className=''>
             <div className='flex justify-center  '>
@@ -132,7 +132,7 @@ const Sidebar = () => {
                 </div>
                 </a>
             </div>
-            <div className='  xl:w-full flex justify-center items-center mt-[80px] lg:pl-[20px] xl:mt-[120px]  xl:pl-[60px] md:block hidden '>
+            <div className='  xl:w-full flex justify-center items-center mt-[80px] mb-[30px] lg:pl-[20px] xl:mt-[120px]  xl:pl-[60px] md:block hidden '>
               <Navbar />
             </div>
           </div>
